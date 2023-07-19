@@ -1,0 +1,547 @@
+* {
+  font-family: 'Work Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px solid red;
+}
+
+.navbar,
+.banner-section,
+.gamer-container,
+.online-games-container,
+.play-instantly-container,
+.play-games-container,
+.careers-container,
+.image-icon-container {
+  padding: 0 100px;
+}
+
+/* Navbar styles */
+.navbar {
+  height: 100px;
+  background: #FFF;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.brand-title {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.primary-color {
+  color: #FF42A5 ;
+}
+
+.menu-item-list {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.menu-item-list > li {
+  list-style: none;
+  color: #3C354F;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.menu-item-list > li > a {
+  text-decoration: none;
+  color: black;
+}
+
+.btn-nav {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  height: 56px; 
+  padding: 17px 24px;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.10);
+}
+
+.fa-youtube {
+  color: #F61C0D;
+  font-size: 24px;
+}
+
+.fa-tiktok {
+  font-size: 24px;
+}
+
+/* Banner Section Styles */
+.banner-section {
+  min-height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.banner-content,
+.banner-image {
+  width: 50%;
+}
+
+.sub-heading {
+  color: #0B0223;
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.heading {
+  font-size: 95px;
+  font-weight: 800;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 24px;
+}
+
+.icon-list {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 17px;
+}
+
+.icon {
+  font-size: 24px;
+}
+
+.fa-circle-play,
+.fa-download {
+  color: #FF42A5;
+  
+}
+
+.fa-user-group {
+  color: #0B0223;
+}
+
+.button-container {
+  margin-top: 41px;
+}
+
+.btn {
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 21px 40px;
+  border: none;
+  outline: none;
+  border-radius: 48px;
+}
+
+.btn-primary {
+  background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+
+.btn-secondary {
+  background-color: #4EC5F7;
+  margin-left: 10px;
+}
+
+.banner-image > img {
+  width: 100%;
+}
+
+/* Gamer Section Styles */
+.gamer-section {
+  min-height: 490px;
+}
+
+.gamer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.gamer-image-container,
+.gamer-content {
+  width: 50%;
+}
+
+.gamer-content {
+  text-align: right;
+}
+
+.gamer-image > img {
+  width: 100%;
+}
+
+.heading-title {
+  font-size: 48px;
+  font-weight: 700;
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gamer-description {
+  margin-top: 24px;
+  color: #534C64;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 32px;
+}
+
+.bio {
+  margin-top: 24px;
+  color: #534C64;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.special-test {
+  color: #534C64;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+/* Online Games Section Styles */
+.online-games {
+  min-height: 700px;
+}
+
+.section-content {
+  text-align: center;
+}
+
+.section-title {
+  color: #0B0223;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.text-highlight {
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.description {
+  margin-top: 24px;
+  color: #534C64;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.online-games-image-container {
+  margin-top: 48px;
+  display: flex;
+  gap: 24px;
+}
+
+.online-image {
+  width: 25%;
+}
+
+.online-image > img {
+  width: 100%;
+}
+
+.black-effect {
+  border-radius: 16px;
+  filter: brightness(0.50);
+  border: 2px solid #F948B2;
+}
+
+.black-effect:hover {
+  cursor: pointer;
+}
+
+.online-bio {
+  margin-top: 24px;
+}
+
+.effect-image {
+  position: relative;
+}
+
+.btn-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.btn-circle {
+  font-size: 48px;
+}
+
+.text-primary {
+  margin-top: 16px;
+  font-size: 20px;
+  font-weight: 600;
+  background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Play Instantly Section Styles */
+.play-instantly {
+  min-height: 700px;
+  margin-bottom: 50px;
+}
+
+.play-instantly-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 48px;
+}
+
+.play-instantly-content, 
+.play-instantly-image-container {
+  width: 50%;
+}
+
+.player-image > img {
+  width: 100%;
+}
+
+.play-instantly-content {
+  text-align: right;
+  margin-left: -200px;
+}
+
+.section-primary {
+  font-size: 48px;
+  font-weight: 700;
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.play-instantly-image-container {
+  position: relative;
+}
+
+.small-image > img {
+  position: absolute;
+  bottom: -100px;
+  left: -150px;
+}
+
+/* Play Games Section Styles */
+.play-games {
+  min-height: 700px;
+}
+
+.play-games-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 48px;
+}
+
+.play-games-image-container,
+.play-games-content {
+  width: 50%;
+}
+
+.play-games-image > img {
+  width: 100%;
+}
+
+
+.play-games-image-container {
+  position: relative;
+}
+
+.small-play-games-image > img {
+  position: absolute;
+  bottom: -100px;
+  right: -200px;
+}
+
+.play-games-content {
+  text-align: start;
+  margin-left: 200px;
+}
+
+.text-secondary {
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Careers Section Styles */
+.careers {
+  min-height: 700px;
+  background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+  color: #fff;
+}
+
+.careers-container {
+  padding-top: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.careers-content,
+.careers-image {
+  width: 50%;
+}
+
+.career-title {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.career-description {
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+.careers-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-left {
+  text-align: start;
+}
+
+.item-right {
+  text-align: right;
+}
+
+.careers-image > img {
+  width: 100%;
+}
+
+.btn-careers {
+  margin-top: 40px;
+  background-color: #fff;
+  color: #F948B2;
+}
+
+/* Image Icon Section Styles */
+.image-icon-container {
+  padding: 130px 100px;
+}
+
+.image-list-one {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.image-list-two {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 16px;
+}
+
+.list-one,
+.list-two {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  border-radius: 50px;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  padding: 0 15px;
+}
+
+.list-two {
+  margin-top: 16px;
+}
+
+.list-text {
+  color: #0B0223;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.color-border {
+  border: 1px solid #FF42A5;
+}
+
+.text-color {
+  background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Footer Section Styles */
+.footer {
+  height: 636px;
+  background: #0B0223;
+  color: #fff;
+  padding: 130px 0;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-title,
+.terms-condition {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.footer-title {
+  margin-top: 70px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.social-icons {
+  margin-top: 66px;
+}
+
+.icon-size {
+  font-size: 40px;
+}
+
+.terms-condition {
+  margin-top: 64px;
+  color: rgba(255, 255, 255, 0.60);
+  font-weight: 500;
+}
+
+.footer-bio {
+  margin-top: 18px;
+  color: rgba(255, 255, 255, 0.60);
+  text-align: center;
+  font-weight: 500;
+}
