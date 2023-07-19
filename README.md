@@ -9,4 +9,4 @@
     1. github
 
 ## Site link: 
-https://bajlar.github.io/gamer-zone/
+https://game-zone-1.netlify.app/
