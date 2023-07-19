@@ -1,5 +1,5 @@
 * {
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -20,7 +20,7 @@
 /* Navbar styles */
 .navbar {
   height: 100px;
-  background: #FFF;
+  background: #fff;
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
   display: flex;
   justify-content: space-between;
@@ -39,7 +39,7 @@
 }
 
 .primary-color {
-  color: #FF42A5 ;
+  color: #ff42a5;
 }
 
 .menu-item-list {
@@ -50,7 +50,7 @@
 
 .menu-item-list > li {
   list-style: none;
-  color: #3C354F;
+  color: #3c354f;
   font-size: 18px;
   font-weight: 500;
 }
@@ -64,14 +64,14 @@
   display: flex;
   align-items: center;
   gap: 16px;
-  height: 56px; 
+  height: 56px;
   padding: 17px 24px;
   border-radius: 8px;
-  background: rgba(11, 2, 35, 0.10);
+  background: rgba(11, 2, 35, 0.1);
 }
 
 .fa-youtube {
-  color: #F61C0D;
+  color: #f61c0d;
   font-size: 24px;
 }
 
@@ -94,7 +94,7 @@
 }
 
 .sub-heading {
-  color: #0B0223;
+  color: #0b0223;
   font-size: 48px;
   font-weight: 600;
   text-transform: uppercase;
@@ -104,7 +104,7 @@
   font-size: 95px;
   font-weight: 800;
   text-transform: uppercase;
-  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -123,12 +123,11 @@
 
 .fa-circle-play,
 .fa-download {
-  color: #FF42A5;
-  
+  color: #ff42a5;
 }
 
 .fa-user-group {
-  color: #0B0223;
+  color: #0b0223;
 }
 
 .button-container {
@@ -136,7 +135,7 @@
 }
 
 .btn {
-  color: #FFF;
+  color: #fff;
   font-size: 20px;
   font-weight: 600;
   text-transform: uppercase;
@@ -147,11 +146,11 @@
 }
 
 .btn-primary {
-  background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
 }
 
 .btn-secondary {
-  background-color: #4EC5F7;
+  background-color: #4ec5f7;
   margin-left: 10px;
 }
 
@@ -187,7 +186,7 @@
 .heading-title {
   font-size: 48px;
   font-weight: 700;
-  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -195,7 +194,7 @@
 
 .gamer-description {
   margin-top: 24px;
-  color: #534C64;
+  color: #534c64;
   font-size: 18px;
   line-height: 30px;
   margin-bottom: 32px;
@@ -203,13 +202,13 @@
 
 .bio {
   margin-top: 24px;
-  color: #534C64;
+  color: #534c64;
   font-size: 24px;
   font-weight: 500;
 }
 
 .special-test {
-  color: #534C64;
+  color: #534c64;
   font-size: 32px;
   font-weight: 700;
 }
@@ -224,13 +223,13 @@
 }
 
 .section-title {
-  color: #0B0223;
+  color: #0b0223;
   font-size: 48px;
   font-weight: 700;
 }
 
 .text-highlight {
-  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -238,7 +237,7 @@
 
 .description {
   margin-top: 24px;
-  color: #534C64;
+  color: #534c64;
   font-size: 18px;
   font-weight: 400;
 }
@@ -259,8 +258,8 @@
 
 .black-effect {
   border-radius: 16px;
-  filter: brightness(0.50);
-  border: 2px solid #F948B2;
+  filter: brightness(0.5);
+  border: 2px solid #f948b2;
 }
 
 .black-effect:hover {
@@ -291,7 +290,7 @@
   margin-top: 16px;
   font-size: 20px;
   font-weight: 600;
-  background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -310,7 +309,7 @@
   gap: 48px;
 }
 
-.play-instantly-content, 
+.play-instantly-content,
 .play-instantly-image-container {
   width: 50%;
 }
@@ -327,7 +326,7 @@
 .section-primary {
   font-size: 48px;
   font-weight: 700;
-  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -364,7 +363,6 @@
   width: 100%;
 }
 
-
 .play-games-image-container {
   position: relative;
 }
@@ -381,7 +379,7 @@
 }
 
 .text-secondary {
-  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -390,7 +388,7 @@
 /* Careers Section Styles */
 .careers {
   min-height: 700px;
-  background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
   color: #fff;
 }
 
@@ -437,7 +435,7 @@
 .btn-careers {
   margin-top: 40px;
   background-color: #fff;
-  color: #F948B2;
+  color: #f948b2;
 }
 
 /* Image Icon Section Styles */
@@ -473,17 +471,17 @@
 }
 
 .list-text {
-  color: #0B0223;
+  color: #0b0223;
   font-size: 20px;
   font-weight: 600;
 }
 
 .color-border {
-  border: 1px solid #FF42A5;
+  border: 1px solid #ff42a5;
 }
 
 .text-color {
-  background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -492,7 +490,7 @@
 /* Footer Section Styles */
 .footer {
   height: 636px;
-  background: #0B0223;
+  background: #0b0223;
   color: #fff;
   padding: 130px 0;
 }
@@ -535,13 +533,13 @@
 
 .terms-condition {
   margin-top: 64px;
-  color: rgba(255, 255, 255, 0.60);
+  color: rgba(255, 255, 255, 0.6);
   font-weight: 500;
 }
 
 .footer-bio {
   margin-top: 18px;
-  color: rgba(255, 255, 255, 0.60);
+  color: rgba(255, 255, 255, 0.6);
   text-align: center;
   font-weight: 500;
 }
